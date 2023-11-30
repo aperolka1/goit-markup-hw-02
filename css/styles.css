@@ -7,8 +7,104 @@ a {
     text-decoration: none;
 }
 
-button {
-    cursor: pointer;
+header {
+    background-color: #E7E9FC;
 }
 
-.logo
+button {
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #4D5AE5;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.ef-solution {
+    background-color: #2E2F42;
+}
+
+h2 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+h3 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.header-nav {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-emphasis-color: rgba(46, 47, 66, 1);;
+}
+
+.header-nav:hover {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #404BBF;
+}
+
+address {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+
+address:hover {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    decoration: underline;
+}
+
+footer {
+    background-color: #2E2F42;
+}
