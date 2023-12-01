@@ -12,14 +12,15 @@ button {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: left;
     color: #FFFFFF;
     background: #4D5AE5;
 }
 
-button:hover {
+button:hover,
+button:focus {
     background: #404BBF;
 }
 
@@ -27,7 +28,7 @@ body {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
@@ -37,7 +38,85 @@ body {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.666;
     letter-spacing: 0.03em;
     text-align: left;
+}
+/* ============== HEADER STYLES ============== */
+.menu {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.menu:hover,
+.menu:focus {
+    color: #404BBF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.contact {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(67, 68, 85, 1);
+    ;
+}
+
+.contact:hover,
+.contact:focus {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #404BBF;
+}
+/* ============== /HEADER STYLES ============== */
+h1 {
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.ef-solution {
+    background-color: #2E2F42;
+}
+
+h2 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1111;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+h3 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+footer {
+    background-color: #2E2F42;
 }
