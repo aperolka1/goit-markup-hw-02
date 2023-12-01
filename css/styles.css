@@ -33,7 +33,7 @@ body {
     text-align: left;
     color: #2E2F42;
 }
-
+/* ============== HEADER STYLES ============== */
 .logo {
     font-family: Raleway;
     font-size: 18px;
@@ -42,7 +42,7 @@ body {
     letter-spacing: 0.03em;
     text-align: left;
 }
-/* ============== HEADER STYLES ============== */
+
 .menu {
     font-family: Roboto;
     font-size: 16px;
@@ -50,17 +50,18 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
+    color: #2E2F42;
 }
 
 .menu:hover,
 .menu:focus {
-    color: #404BBF;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
+    color: #404BBF;
 }
 
 .contact {
@@ -70,7 +71,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-    color: rgba(67, 68, 85, 1);
+    color: #434455;;
     ;
 }
 
@@ -117,6 +118,10 @@ h3 {
     text-align: left;
 }
 
+.team-page {
+    background-color: #F4F4FD;
+}
 footer {
+    color: #F4F4FD;
     background-color: #2E2F42;
 }
