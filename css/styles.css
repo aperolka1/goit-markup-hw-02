@@ -35,21 +35,6 @@ body {
     background-color: #FFFFFF;
 }
 /* ============== HEADER STYLES ============== */
-.logo {
-    font-family: Raleway,sans-serif;
-    text-transform: uppercase;
-    font-size: 18px;
-    color: #4d5ae5;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-align: left;
-}
-
-.logo-std {
-    color: #2e2f42;
-}
-
 .menu {
     font-family: Roboto;
     font-size: 16px;
@@ -69,6 +54,21 @@ body {
     letter-spacing: 0.02em;
     text-align: left;
     color: #404BBF;
+}
+
+.logo {
+    font-family: Raleway,sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #4d5ae5;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.logo-std {
+    color: #2e2f42;
 }
 
 .contact {
