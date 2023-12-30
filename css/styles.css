@@ -36,24 +36,24 @@ body {
 }
 /* ============== HEADER STYLES ============== */
 .menu {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #2E2F42;
+    color: #2e2f42;
 }
 
 .menu:hover,
 .menu:focus {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #404BBF;
+    color: #404bbf;
 }
 
 .logo {
@@ -71,8 +71,18 @@ body {
     color: #2e2f42;
 }
 
-.contact {
+.std {
+    color: #2e2f42;
+}
+
+.std:hover,
+.std:focus {
+    color: #404bbf;
+}
+
+.conect {
     font-family: Roboto, sans-serif;
+    font-style: normal;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -81,8 +91,8 @@ body {
     color: #434455;
 }
 
-.contact:hover,
-.contact:focus {
+.conect:hover,
+.conect:focus {
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 400;
