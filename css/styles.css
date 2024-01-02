@@ -7,23 +7,6 @@ a {
     text-decoration: none;
 }
 
-button {
-    cursor: pointer;
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    text-align: left;
-    color: #FFFFFF;
-    background: #4D5AE5;
-}
-
-button:hover,
-button:focus {
-    background: #404BBF;
-}
-
 body {
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -108,15 +91,32 @@ body {
 .contact:focus {
     color: #404BBF;
 }
-/* ============== /HEADER STYLES ============== */
-h1 {
+/* ============== /MAIN STYLES ============== */
+.main-heading {
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.bttn {
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     text-align: left;
     color: #FFFFFF;
+    background: #4D5AE5;
+}
+
+.bttn:hover,
+.bttn:focus {
+    background: #404BBF;
 }
 
 .ef-solution {
