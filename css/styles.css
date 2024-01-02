@@ -175,7 +175,17 @@ h2 {
     color: #2e2f42;
 }
 /* ============== /FOOTER ============== */
-footer {
+.ftr {
     color: #F4F4FD;
     background-color: #2E2F42;
+}
+
+.logo-std-second {
+    color: #F4F4FD;
+}
+
+.ftr-chpt {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
