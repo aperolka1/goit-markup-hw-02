@@ -17,6 +17,15 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+
+h2 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1111;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
 /* ============== HEADER STYLES ============== */
 .menu {
     font-family: Roboto, sans-serif;
@@ -122,28 +131,38 @@ body {
 .ef-solution {
     background-color: #2E2F42;
 }
+/* ============== /SECOND SECTION-OUR BENEFITS ============== */
 
-h2 {
-    font-family: Roboto;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.1111;
-    letter-spacing: 0.02em;
-    text-align: left;
-}
-
-h3 {
+.bnfts {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
+    color: #2e2f42;
 }
 
+.bnfts-chpt {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    color:#434455
+}
+/* ============== /THIRTH SECTION-OUR TEAM ============== */
 .team-page {
     background-color: #F4F4FD;
 }
+
+.sub-heading {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+/* ============== /FOOTER ============== */
 footer {
     color: #F4F4FD;
     background-color: #2E2F42;
