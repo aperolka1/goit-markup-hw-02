@@ -88,7 +88,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #434455;
 }
 
 .adrs:hover,
@@ -99,6 +98,14 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
+}
+
+.contact {
+    color: #434455;
+}
+
+.contact:hover,
+.contact:focus {
     color: #404BBF;
 }
 /* ============== /HEADER STYLES ============== */
