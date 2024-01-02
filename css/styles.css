@@ -118,7 +118,7 @@ h2 {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    text-align: left;
+    text-align: center;
     color: #FFFFFF;
     background: #4D5AE5;
 }
@@ -146,7 +146,7 @@ h2 {
 .bnfts-chpt {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color:#434455
 }
 /* ============== /THIRTH SECTION-OUR TEAM ============== */
